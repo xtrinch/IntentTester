@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
+                <data android:scheme="intenttester" android:host="testme" android:path="/"/>
                 <data android:scheme="http"
                     android:host="trinch.dev.tovarnaidej.com"/>
             </intent-filter>
